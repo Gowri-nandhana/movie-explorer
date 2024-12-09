@@ -1,0 +1,53 @@
+/* Error page container */
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  padding-top: 10rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+    /* padding: 20px; */
+    margin: 0;
+    padding-bottom: 10rem;
+  }
+  
+  /* Error code */
+  .error-page h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #ff6347; /* Tomato red */
+    margin: 0;
+  }
+  
+  /* Error message */
+  .error-page h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  /* Description */
+  .error-page p {
+    font-size: 1rem;
+    margin: 20px 0;
+    color: #666;
+    max-width: 600px;
+  }
+  
+  /* Home button */
+  .home-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff; /* Blue */
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  

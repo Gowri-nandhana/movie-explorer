@@ -1,0 +1,51 @@
+/* Container for trending section */
+.trending-container {
+    padding: 20px;
+    background-color: #f4f4f4; /* Light gray background */
+    min-height: 100vh;
+  }
+  
+  /* Layout for movie list */
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Spacing between movie cards */
+    justify-items: center; /* Center-align cards in the grid */
+  }
+  
+  /* Styling each movie card */
+  .movie-card {
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Clips overflowing content */
+    text-align: center; /* Center-align content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animations */
+    width: 100%; /* Ensure cards fit within the grid */
+    max-width: 250px; /* Optional: limit the card width */
+  }
+  
+  /* Hover effect for movie card */
+  .movie-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  }
+  
+  /* Movie poster styling */
+  .movie-poster {
+    width: 100%; /* Full width of the card */
+    height: auto; /* Maintain aspect ratio */
+    border-bottom: 1px solid #ddd; /* Optional: divider below the image */
+  }
+  
+  /* Title styling */
+  .movie-card h1 {
+    font-size: 18px; /* Font size for titles */
+    font-weight: bold; /* Emphasize titles */
+    color: #333; /* Dark gray color */
+    margin: 15px 10px; /* Space around title */
+    white-space: nowrap; /* Prevents wrapping */
+    overflow: hidden; /* Hides overflow text */
+    text-overflow: ellipsis; /* Adds "..." for long titles */
+  }
+  
